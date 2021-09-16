@@ -1,0 +1,120 @@
+/* These */
+
+body{
+    background-image: url("bkround.png");
+    background-color: rgb(12, 14, 15); 
+    background-repeat: no-repeat;
+    background-size: 459px;
+    color: rgb(139, 123, 127);
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    display: right;
+  }
+  .topnav a {
+    float: left;
+    display: right;
+    color: #f2f2f2;
+    text-align: justify;
+    padding: 3px 18px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: rgb(31, 36, 35);
+    color: black;
+  }
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    grid-template-rows: 40% 60%;
+    gap: 0px;
+    grid-auto-flow: row;
+  }
+  
+  h1 {
+    text-align: center
+    padding-right: 1020px;
+  }
+
+  hr { color:#333232;
+    width: 58%;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    margin-right: -25px;
+    margin-left: %;
+    height:.2px;
+    }
+
+
+
+    /*float: left;
+    width: 25%;
+    padding-left: 10px;
+    
+
+      .column {
+    float: right;
+    height: 40px;
+    width: 22px;
+    padding: 15px;
+  }
+  }*/  
+  /*This is for the box of selections*/
+  
+  div.ex2{
+    border: 3px solid black;
+    margin-top: 3px;
+    margin-left: 35px;
+    height: 367px;
+    width: 385px;
+
+}
+
+div.ex3{
+    border: 3px solid black;
+    margin: px;
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 1169px;
+    width: 685px;
+    padding: 40px;
+}
+
+.button{
+    border-radius: 2px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: transparent; 
+    border: 2px;
+    color: black;
+    padding: 9px;
+    text-align: center;
+    font-size: 39px;
+    margin: 40px;
+    cursor: pointer;
+    
+  }
+  
+a:link{
+    color: rgb(139, 94, 94);
+}
+
+a:visited{
+        color: rgb(62, 66, 66);
+}
+  
+.column {
+    float: ;
+    width: 40%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
